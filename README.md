@@ -56,27 +56,7 @@ VALUES ('test@example.com', 'password123', 'Test User');
   - Enforce prepared statements everywhere
   - Store JWT secret securely (env/config, not in code)
   - Serve over HTTPS and set proper cookie flags
-// ...existing code...
-```// filepath: d:\xampp\htdocs\loginv2\README.md
-// ...existing code...
-# loginv2
-
-✅ **Done** ✅
-
-Small PHP demo showing JWT-based login (functional demo).
-
-## Status
-- ✅ Completed: basic login, JWT token stored in secure cookie, login → welcome → logout flow
-- ⚠️ Not production-secure — improve before public deployment
-
-## Languages & Tech
-- 🐘 PHP
-- 🐬 MySQL
-- 📦 Composer
-- 🔒 Firebase JWT (firebase/php-jwt)
-- 🎨 Bootstrap (CDN)
-- 🔧 Git
-
+ 
 ## Quick start
 1. Install dependencies:
    ```sh
@@ -109,4 +89,3 @@ INSERT INTO `users` (`user_email`, `user_password`, `user_name`)
 VALUES ('test@example.com', 'password123', 'Test User');
 ```
 
-## Notes
